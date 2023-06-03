@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="nav">
+        <div class="name">
+            <h1 class="name-head" onclick="loadPage()">Comfort Wheels</h1>
+        </div>
+        <div class="filter">
+            <h2 class="honda" onclick="runFilter('Honda')">Honda</h2>
+            <h2 class="toyota" onclick="runFilter('Toyota')">Toyota</h2>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Search Car Name" id="text" onchange="runSearch()">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-con">
+        </div>
+    </div>
+    
+
+            <!-- <button onclick="runSearch()">Search</button> -->
+
+    
+    <!-- <div class="car-card">
+        <div class="car-image">
+            <img class="image" src="Images/civic.jpg" alt="">
+        </div>
+        <div class="car-detail">
+            <h2 class="make">CIVIC - <span class="model">2012</span></h2>
+            <h3>PKR 7,000,000 | <span class="price">Lahore</span></h3>
+        </div>
+    </div> -->
+
+
+
+
+    <!-- <div class="honda">
+                <select class="honda-list">
+                    <option value="" hidden>Honda</option>
+                    <option value="all" onclick="runFilter('all')">All</option>
+                    <option value="civic" onclick="runFilter('civic')">Civic</option>
+                    <option value="city" onclick="runFilter('city')">City</option>
+                </select>
+            </div>
+            <div class="toyota">
+                <select class="toyota-list">
+                    <option value="" hidden>Toyota</option>
+                    <option value="all" onclick="runFilter('all')">All</option>
+                    <option value="corolla" onclick="runFilter('corolla')">Corolla</option>
+                    <option value="fortuner" onclick="runFilter('fortuner')">Fortuner</option>
+                </select>
+        
+
+
+
+
+
+
+
+
+       <!--      <div class="car-card">
+                <div class="car-image">
+                    <img class="image" src="Images/corolla.jpg" alt="">
+                </div>
+                <div class="car-detail">
+                    <h2>Corolla</h2>
+                    <h3>PKR 4,000,000 | <span class="price">Karachi</span></h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">
+                    <img class="image" src="Images/city.jpg" alt="">
+                </div>
+                <div class="car-detail">
+                    <h2>City</h2>
+                    <h3>PKR 5,000,000 | <span class="price">Islamabad</span></h3>
+                </div>
+            </div>
+
+            <div class="car-card">
+                <div class="car-image">
+                    <img class="image" src="Images/fortuner.jpg" alt="">
+                </div>
+                <div class="car-detail">
+                    <h2>Fortuner</h2>
+                    <h3>PKR 12,000,000 | <span class="price">Karachi</span></h3>
+                </div>
+            </div>
+             -->
+    <script src="app.js"></script>
+</body>
+</html>
